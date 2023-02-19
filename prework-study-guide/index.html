@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Prework Study Guide</title>
+  </head>
+  <body>
+    <header id="top">
+      <h1>Prework Study Guide</h1>
+      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+    </header>
+    <main>
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <ul>
+          <li>The head element contains information about the webpage</li>
+          <li>The body element represents the visible content shown to the user</li>
+          <li>Used to create the structure of a webpage</li>
+          <li>made up of elements that work together to provide a framework for all web pages</li>
+          <li>elements are usually composed of an opening tag and a closing tag represented with angle brackets (< >)</li>
+        <br />   
+          <h3>Types of HTML Elements</h3>
+              <ul>
+            <li>!DOCTYPE html- Declaration that lets the browser know to expect HTML on the page</li>
+            <li>html lang-"eng"- opening tab marks beginning of the html document and lang-"eng" tells browser language will be in english
+            <li>head- contains metadata, or data about our webpage that the browser uses to effectively serve our webpage to users, not typically seen by user but it contains important information about accessibility, search engines, and performance</li>
+              <li>title- defines title for a webpage and is required for Search Engine Optimization(SEO)</li>            
+              <li>style- defines the CSS styles associated with a website</li>
+              <li>base- defines the base URL for a webpage</li>
+              <li>link- connects an external resource to the HTML document</li>
+              <li>meta- defines metadata such as the character set, description, keywords, author, and viewport</li>
+                <li>charset- sets our character encoding</li>
+                <li>http-equiv- sets an HTTP header for content</li>
+                <li>viewport- sets the default view for our webpage</li>
+              <li>script- embeds client-side scripts in the HTML document</li>
+            <li>body- defines the body of the document, which contains the content that is visible to the user</li>
+              <li>div- creates a division in the page</li>
+              <li>span- create an inline division</li>
+              <li>h#- represents level of heading, like pressing tab key, only one h1 element</li>
+              <li>p- paragraph or block of text</li>
+              <li>ul- unordered lists</li>
+              <li>ol- ordered lists</li>
+              <li>li- list items</li>
+              <li>img- contains info about images that are displayed on the webpage</li>
+                <li>src- defines location of the image</li>
+              <li>br- creates a line of empty space or a line break between two blocks of content</li>
+              <li>a- anchor- creates links to the same webpage or other webpages</li>
+                <li>href- points to the URL for the link</li>
+              <li>header- appears at the top of the page and usually contains a navigation menu and/or introductory content</li>
+              <li>main- ??????</li>
+              <li>footer- appears at the bottom of the page and usually contains the author, copyright, contact, sitemap, and navigation</li>
+              </ul>              
+        </ul>
+      </section>
+   
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>CSS- Cascading Style Sheets- used to add style to a webpage, defines how webpage content is presented to users</li>
+          <li>defines the colors, aesthetics, visual layout, and organization</li>
+          <li>3 ways to style a webpage using CSS: incline CSS, internal CSS style sheet, and external CSS style sheet</li>
+          <li>incline CSS- used to style an element directly in the HTML file</li>
+          <li>internal CSS style sheet- makes it possible to embed entire stylesheet directly in the HTML file using a style element in the head element</li>
+          <li>external style sheet- allows developers to keep all their CSS rules in a seperate file which makes design changes easier</li>
+          <li>link element placed in HTML head element when using ecternal CSS style sheet</li>
+          <li>CSS rule- Selector defines elements or attributes to which declarations will apply, declarations consist of the CSS property that we want to apply and the value of that property</li>
+          <li>margin- indicates how much space we want around the outside of an element</li>
+          <li>padding- adds space around the content inside an element</li>
+          <li>text-align- one way to center a title or heading on a webpage</li>
+          <li>display: block;- display property is assigned with block value which assigns each image to start n a new line</li>
+          <li>link rel="stylesheet" href="./assets/style.css"- link creates the connection to the external file, rel specifies the relationship between the current document and the linked document resource, href specifies the location of the external resource</li>
+          <li></li>
+        </ul>
+      </section>
+   
+      <section class="card" id="git-section">
+   
+      </section>
+        <h2>git</h2>
+        <ul>
+          <li>version control system that lets you manage and keep track of each version of your project</li>
+          <li>use command line to access</li>
+          <li>different than regular bash commands, always starts with git</li>
+          <li>great for tracking changes locally but github allows us to keep track of projects remotely and collaborate with other using repositories</li>
+          <li>repositories are used to store, files that contain code, files that contain other info about the code, ie. a README file, and version history for all files in the repo</li>
+          <li>README files- used to pass along useful information to anyone who visits the repository on GitHub</li>
+          <li>.md- an extension o indicate a Markdown file, similar to .doc, except we have to use a special syntax for formatting</li>
+          <li>code editor(VS Code) used to write, view, and edi our code</li>
+          <li>branch- copy or version of the code that can be worked on independently in isolation so development changes do not disrupt other team members who are also working on the code and testing their solutions</li>
+          <li>main branch is default branch, we should not be doing any coding in the main branch</li>
+          <li>when we creat a new branch to add something new to our project we call it a feature branch</li>
+          <li>In the feature branch, we make commits of all the changes we make to the code while working. We add a commit message that is descriptive of what changed in the code, then we push it to our feature branch in the github repo</li>
+          <li>PR- Pull Request- used to merge a comparison branch into te base branch</li>
+          <li>PR Open- you, other developers, and collaborators on your team can view those changes you made to the code and then comment on it, request changes, and even have a conversation about your changes</li>
+          <li>Once PR is approved, you can merge it into the main branch, any new branches will be created from the updated main branch</li>
+            <ul>
+              <h3>git commands</h3>
+                <li>git clone <paste copied SSH value>- clones github repository onto our computer</li>
+                <li>git status - check what branch we are currently on</li>
+                <li>git checkout -b feature/????? - create a new branch, git precedes every Git statement, checkout moves the working branch to a new branch, -b creates a new branch</li>
+                <li>git add -A - add adds modifications in the current working branch to the staging area, -A indicates that we want to add all changes</li>
+                <li>git commit -m "add ?????" - command with a commit message that describes what the commit contains</li>  
+                <li>git pull origin ?????- checks if our local branch is in sync with the base branch in Github, pull receives a branch's modifications into the local environment,origin indicates the source of the pull will be in the Github repo,????? indicates the branch</li>
+            </ul>  
+        </ul>
+      <section class="card" id="javascript-section">
+   
+      </section>
+        <h2>JavaScript</h2>
+    </main>
+
+    <footer>
+      <p>I can code!</p>
+    </footer>
+  </body>
+</html>
